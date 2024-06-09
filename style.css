@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+nav{
+    background-color: green;
+    height: 5vh;
+    width: 100%;
+    font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+header{
+    background-color: gray;
+    height: 10vh;
+    width: 100%;
+    font-size: 2em; 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+main{
+   
+grid-template-rows: repeat( 8,1fr) ;
+grid-template-columns:  repeat(6, 1fr) ;
+display: grid;
+height: 83vh;
+width: 90%;
+margin: 0 auto;
+gap: 1rem;
+padding: 1rem;
+
+}
+footer{
+    background-color: grey;
+    height: 5vh;
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.box {
+   align-items: center;
+   justify-content:center;
+   font-size:2em;
+ 
+   min-height: 100%;
+
+   display: flex;
+}
+.box img{
+    border-radius: 10px; 
+    object-fit: cover;
+}
+.box1{
+grid-column: span 3;
+
+
+}
+.box5{
+    grid-row: span 4 ;
+}
+.box6{
+    grid-row: span 2;
+}
+.box7{
+    grid-row: span 2;
+}
+.box8{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.box9{
+    grid-row: span 4;
+}
+.box10{
+    grid-row: span 4;
+}
+.box11{
+    grid-row: span 2;
+}
+.box12{
+    grid-row: span 2;
+}
+.box13{
+    grid-row: span 2;
+}
+.box14{
+    grid-row: span 2;
+}
+.box15{
+    grid-row: span 2;
+}
+.box16{
+    grid-row: span 2;
+}
+.box17{
+    grid-row: span 2;
+}
+.box18{
+    grid-row: span 2;
+}
+.box19{
+grid-column: span 5;
+}
